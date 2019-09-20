@@ -1,0 +1,53 @@
+{
+  "name": "eightfold",
+  "version": "1.0.0",
+  "description": "React JS - Auto complete Tag Input",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "prod": "run-s prod:*",
+    "prod:build": "PORT=3000 npm run build",
+    "prod:start": "node ./server.js"
+  },
+  "keywords": [
+    "react",
+    "js",
+    "styled components",
+    "input",
+    "auto",
+    "complete",
+    "tag"
+  ],
+  "dependencies": {
+    "axios": "^0.18.1",
+    "babel": "~6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "~7.1.5",
+    "babel-polyfill": "~6.26.0",
+    "babel-runtime": "~6.26.0",
+    "express": "~4.17.1",
+    "html-webpack-plugin": "~3.2.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-redux": "7.0.2",
+    "react-router-dom": "5.0.0",
+    "redux": "4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-saga": "1.0.2",
+    "styled-components": "4.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "~1.5.1",
+    "babel-plugin-transform-runtime": "~6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "~6.16.0",
+    "babel-preset-stage-2": "~6.24.1",
+    "npm-run-all": "^4.1.2",
+    "webpack": "4.30.0",
+    "webpack-cli": "3.3.0",
+    "webpack-dev-server": "~3.8.1"
+  },
+  "author": "nirav kapoor",
+  "license": "ISC"
+}
