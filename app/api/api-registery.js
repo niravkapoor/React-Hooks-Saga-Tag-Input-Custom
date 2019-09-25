@@ -10,15 +10,7 @@ export const apiList = {
 
 
 const apiRegistry = {
-    buildApiUrl(api, options = {}) {
-      // If api passed is a URL return same
-    //   if (
-    //     api.toLowerCase().startsWith('http://')
-    //     || api.toLowerCase().startsWith('https://')
-    //   ) {
-    //     return api;
-    //   }
-  
+    buildApiUrl(api, options = {}) {  
       let returnVal = '';
       let route = apiList[api];
   
